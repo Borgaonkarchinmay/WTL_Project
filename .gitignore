@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+node_modules/
+packages/
+=======
+*node_modules/*
+/packages
+>>>>>>> caaf2ec18c21738ae5b8486b7e1958dc0a608a19
+=======
+*node_modules/*
+/packages
+>>>>>>> caaf2ec18c21738ae5b8486b7e1958dc0a608a19

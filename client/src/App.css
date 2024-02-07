@@ -1,0 +1,102 @@
+.geocode-results{
+    padding: 12px;
+    margin : 24px;
+}
+
+.map-container {
+    margin: -25px 0 0 -25px;
+    height: 400px;
+    height: 620px;
+}
+
+.App {
+    text-align: center;
+    display:flex;
+    min-height:96vh;
+    align-items: center;
+  }
+  
+  .auth-form-container, .login-form, .registration-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(253, 251, 251);
+  }
+  
+  .auth-form-container, .login-form{
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.28);
+  }
+
+  .auth-form-container
+  {
+    padding: 1rem;
+    border:1px solid white;
+    border-radius: 6px;
+  }
+  
+  label
+  {
+    text-align:left;
+    padding:0.25rem 0;
+  }
+  
+  input{
+    margin:0.5rem 0;
+    padding:1rem;
+    border:none;
+    border-radius: 10px;
+  }
+  
+
+  
+  .btn{
+   background:none;
+   color:white;
+   text-decoration: underline; 
+  }
+
+  .rapido_input_group input, .rapido_input_group select {
+    height: 43rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #303030;
+    width: 100%;
+    display: block;
+    padding: 0 2px;
+    outline: 0;
+    margin-top: 12.5px;
+    text-align: left;
+  }
+
+  .yellow-btn {
+    border-radius: 30px 30px 30px 5px;
+  }
+
+  .form_section .btn {
+    background: #eee600;
+    color: #000;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 30px;
+    height:46px;
+  }
+
+
+  
+
+  /*
+  <form className="registration-form form_section">
+          <input type="email" placeholder="enter email" onChange={(e) => { setEmail(e.target.value) }}></input><br></br>
+          <input type="password" placeholder="enter password" onChange={(e) => { setPassword(e.target.value) }}></input><br></br>
+          <button onClick={ login } className='yellow-btn btn'>Log In</button><br></br>
+        </form>
+
+        </div>
+
+        
+          
+        
+  
+  */

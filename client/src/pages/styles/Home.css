@@ -1,0 +1,86 @@
+
+button{
+    background-color: #003e53; /* Green */
+      border: none;
+      color: white;
+      padding: 20px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 30px 1px;
+      cursor: pointer;
+      font-size: 18px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+  
+    }
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(28, 1, 96, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.home-request-offer-btn{
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 18rem;
+  left: 18rem;
+}
+
+.home-request-offer-btn button {
+  width: 30rem; /* Adjust the width as per your preference */
+  height: 10rem; /* Adjust the height as per your preference */
+}
+
+.home-ride-offer-register{
+  display: inline-block;
+  position: absolute;
+  top: 10%; 
+  left: 30%;  
+}
+      
+.home-ride-request-btn{
+  background: #eee600;
+  color: #000;
+  border-radius: 0rem 0rem 0rem 20rem;
+}
+    
+.home-ride-offer-btn{ 
+  background: #eee600;
+  color: #000;
+  border-radius: 0rem 20rem 0rem 0rem;
+}
+
+.form_section {
+  flex: left;
+  padding-right: 10%;
+}
+
+.yellow-btn {
+  background: #eee600;
+  color: #000;
+  border-radius: 30px 30px 30px 5px;
+}
+
+.form_section .btn {
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 30px;
+  height: 52px;
+}
+
+.rapido_input_group input, .rapido_input_group select {
+  height: 52px;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #303030;
+  width: 100%;
+  display: block;
+  padding: 0 7px;
+  outline: 0;
+  margin-top: 12.5px;
+  text-align: left;
+}

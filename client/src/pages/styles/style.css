@@ -1,0 +1,36 @@
+.head{
+    text-align: center;
+    background: black;
+    color: #eee600;
+    height: 30px;
+    vertical-align: middle;  
+  }
+
+  button{
+    background: #eee600;
+    color: #000;
+      border: none;
+      padding: 6px 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 30px 1px;
+      cursor: pointer;
+      font-size: 18px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border-radius: 12px 12px 12px 12px;
+  
+    }
+    .button1:hover {
+      box-shadow: 0 12px 16px 0 rgba(28, 1, 96, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+  .ride-insight-popup{
+    display: inline-block;
+    position: absolute;
+    top: 12%; 
+    left: 25%;  
+  }
+
+
