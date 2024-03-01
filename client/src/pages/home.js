@@ -13,7 +13,7 @@ import 'react-clock/dist/Clock.css';
 import './styles/Home.css';
 
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2hpbm1heXBiIiwiYSI6ImNsZmphOTVkMDBoM2ozdnBuY3k3c2J3MjcifQ.Znb2DKQoYHqreA6cYDdYDA';
+mapboxgl.accessToken = '';
 
 export const Home = () =>{
 
